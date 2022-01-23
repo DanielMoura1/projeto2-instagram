@@ -3,6 +3,9 @@ body{
     width:935;
     overflow-x:hidden;
 }
+.html{
+    overflow-x:hidden;
+}
 .logo{
     background:white;
     height: 50px;
@@ -21,8 +24,8 @@ body{
     font-size: 30PX;
 }
 .linnha{
-    width: 1px;
-    height:20px;
+    width: 3px;
+    height:25px;
     background: #fafafa;
     
 }
@@ -355,6 +358,9 @@ p{
     
 }
 @media (max-width:614px){
+    .pontos{
+        margin-left: 250px;
+    }
     .seta{
         right:30px;
     }
@@ -403,7 +409,8 @@ p{
     
         width:100vw;
         position: fixed;
-        bottom:0px;
+        right:0;
+        bottom:0;
         
         display: flex;
         justify-content:space-around;
