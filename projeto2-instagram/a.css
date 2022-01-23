@@ -1,6 +1,7 @@
 body{
     background:#fafafa;
     width:935;
+    overflow-x:hidden;
 }
 .logo{
     background:white;
