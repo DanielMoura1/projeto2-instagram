@@ -19,7 +19,7 @@ body{
 .seta{
     position: absolute;
    
-    right:730px;
+    right:15px;
     color:white;
     font-size: 30PX;
 }
@@ -77,6 +77,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position:relative;
     
 }
 
@@ -140,6 +141,7 @@ p{
     position: fixed;
     top:15;
     right:100px;
+    
     
 
     
@@ -327,11 +329,12 @@ p{
         width:614px;
     }
     .post{
+        margin-left: 10%;
         width:614px;
 
     }
     .seta{
-        right:200px;
+        right:20px;
 
     }
     
@@ -409,13 +412,14 @@ p{
     
         width:100vw;
         position: fixed;
-        right:0;
-        bottom:0;
+        left:0;
+        bottom:0px;
         
         display: flex;
         justify-content:space-around;
+        height: 25px;
         
-        width: 100vw;
+        
         
     
         
